@@ -1,5 +1,5 @@
 {
-    "name": "nyt-react",
+    "name": "nytreact",
     "description": "web app made of create-react-app UI + Node API",
     "scripts": {
     },
