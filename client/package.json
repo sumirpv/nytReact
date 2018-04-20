@@ -2,6 +2,7 @@
   "name": "nytreact",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001/",
   "homepage": "https://sumirpv.github.io/nytreact/",
   "dependencies": {
     "axios": "^0.18.0",
