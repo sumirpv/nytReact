@@ -52,11 +52,13 @@ class Articles extends Component {
     };
 
     saveArticle = articleData => {
+        console.log("saved clicked");
 
-        document.getElementById(articleData.btnId).disabled = 'true';
+        // document.getElementById(articleData.btnId).disabled = 'true';
         API.saveArticle(articleData)
             .then(res => this.loadSavedArticles())
             .catch(err => console.log(err));
+            
     };
 
     handleInputChange = event => {
